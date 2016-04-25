@@ -106,7 +106,7 @@ public final class Hockey implements Runnable {
         this.player.initBall((float) (width / WIN_PLAYER), (float) ((height * WIN_PLAYER) / WIN_NONE), 0.0f, 0.0f);
         Ball.setGoal(0, 0, width, height, (int) (((double) width) / 1.9d));
         textPaint = new Paint(WIN_COM);
-        textPaint.setColor(-16711681);
+        textPaint.setColor(-16711681); //
         textPaint.setTextAlign(Align.CENTER);
         textPaint.setTypeface(Typeface.SERIF);
         textPaint1 = new Paint(WIN_COM);
