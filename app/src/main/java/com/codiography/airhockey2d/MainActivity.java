@@ -1,10 +1,13 @@
 package com.codiography.airhockey2d;
 
 import android.app.Activity;
+import android.content.pm.ActivityInfo;
 import android.os.Bundle;
 import android.support.v4.view.accessibility.AccessibilityNodeInfoCompat;
+import android.view.Window;
 
 public final class MainActivity extends Activity {
+
     static boolean backPressed;
     static MainActivity context;
     private boolean created;
@@ -18,8 +21,8 @@ public final class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         context = this;
         Log.msg("activity creating");
-        setRequestedOrientation(1);
-        requestWindowFeature(1);
+        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
+        requestWindowFeature(Window.FEATURE_NO_TITLE);
         getWindow().setFlags(AccessibilityNodeInfoCompat.ACTION_NEXT_HTML_ELEMENT, AccessibilityNodeInfoCompat.ACTION_NEXT_HTML_ELEMENT);
         if (!this.created) {
             this.created = true;
@@ -40,4 +43,5 @@ public final class MainActivity extends Activity {
     public void onBackPressed() {
         backPressed = true;
     }
+
 }

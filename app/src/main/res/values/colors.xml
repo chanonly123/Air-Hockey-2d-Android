@@ -3,4 +3,10 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+
+    <color name="button_back">#fc121e</color>
+    <color name="button_back_play">#73ca1b</color>
+    <color name="text_white">#fff</color>
+    <color name="ripple_color">#cecece</color>
+
 </resources>
