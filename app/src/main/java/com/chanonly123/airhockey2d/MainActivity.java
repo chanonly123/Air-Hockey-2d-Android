@@ -1,4 +1,4 @@
-package com.codiography.airhockey2d;
+package com.chanonly123.airhockey2d;
 
 import android.app.Activity;
 import android.content.pm.ActivityInfo;

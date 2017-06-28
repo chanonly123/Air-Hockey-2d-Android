@@ -1,4 +1,4 @@
-package com.codiography.airhockey2d;
+package com.chanonly123.airhockey2d;
 
 public class Vector2D {
     float f4x;

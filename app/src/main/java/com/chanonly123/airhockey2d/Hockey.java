@@ -1,4 +1,4 @@
-package com.codiography.airhockey2d;
+package com.chanonly123.airhockey2d;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
@@ -8,7 +8,6 @@ import android.graphics.Paint;
 import android.graphics.Paint.Align;
 import android.graphics.Paint.Style;
 import android.graphics.Typeface;
-import android.support.v4.app.DialogFragment;
 import android.support.v4.internal.view.SupportMenu;
 import android.support.v4.view.MotionEventCompat;
 import android.view.SurfaceHolder;
@@ -142,7 +141,7 @@ public final class Hockey implements Runnable {
     private void setRandomBoard() {
         int id;
         switch (new Random().nextInt(10)) {
-            case DialogFragment.STYLE_NORMAL /*0*/:
+            case 0 /*0*/:
                 id = R.drawable.board_back0;
                 break;
             case WIN_COM /*1*/:
@@ -189,6 +188,7 @@ public final class Hockey implements Runnable {
                     } else {
                         fadeOutString("GO", WIN_COM, width / 6, width / WIN_PLAYER);
                     }
+                    setRandomBoard();
                     this.result = resume();
                     if (vsCom) {
                         if (this.result != WIN_COM) {

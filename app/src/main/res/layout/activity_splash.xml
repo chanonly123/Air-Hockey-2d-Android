@@ -6,7 +6,6 @@
 
 
     <LinearLayout
-        android:id="@+id/mid"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
@@ -20,7 +19,6 @@
             android:src="@drawable/ic_launcher" />
 
         <TextView
-            android:id="@+id/textView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
@@ -37,7 +35,15 @@
             android:divider="@null"
             tools:listitem="@layout/menu_item"/>
 
-
     </LinearLayout>
+
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="5dp"
+        android:text="College project by\nChandan Karmakar, Sujay Majumdar, Hirak Karan"/>
 
 </RelativeLayout>

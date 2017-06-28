@@ -1,4 +1,4 @@
-package com.codiography.airhockey2d;
+package com.chanonly123.airhockey2d;
 
 import android.graphics.Bitmap;
 import android.graphics.Bitmap.Config;
