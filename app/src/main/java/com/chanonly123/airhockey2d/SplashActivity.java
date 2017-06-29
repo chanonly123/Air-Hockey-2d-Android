@@ -40,9 +40,7 @@ public class SplashActivity extends Activity implements AdapterView.OnItemClickL
             case 1: // share
                 sharePlayStoreLink();
                 break;
-            case 2: // link
-                break;
-            case 3: // github
+            case 2: // github
                 goToGithub();
                 break;
             default:
