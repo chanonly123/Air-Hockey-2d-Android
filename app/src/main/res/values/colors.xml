@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="text_white">#fff</color>
+    <color name="ripple_color">#cecece</color>
+
+</resources>
